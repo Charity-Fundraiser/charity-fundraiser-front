@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  //background-color: rgba(136, 255, 0, 0.6);
+  background-color: #62ff62;
+  color: #00003b;
+  height: 60px;
+  font-family: "Lato Heavy", serif;
+  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.2);
+
+  .logo {
+    background-color: #6262ff;
+    min-width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .nav {
+    background: #6262ff;
+    text-align: center;
+    height: 100%;
+
+    a {
+      color: #62ff62;
+      padding: 19px 0;
+      display: inline-block;
+      min-width: 130px;
+      font-weight: 500;
+      font-size: 16px;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      &:hover,
+      &.active {
+        color: #ff6262;
+        border-bottom-color: #ff6262;
+        cursor: pointer;
+      }
+    }
+  }
+}
